@@ -1,13 +1,12 @@
 nav{
 	position: fixed;
-	margin-top: 0px;
-	position: fixed;
 	background-color: #D3D3D3;
 	height: 50px;
 	width: 100%;
 	right: 0;
-	top: 10px;
+	top: 0px;
 }
+
 
  a{
 	text-decoration: none;
@@ -40,21 +39,33 @@ li{
 }
 
 main {
-  padding-top: 200px;
+  padding-top: 100px;
   min-width: 1000px;
 }
 
+main a{
+	text-decoration: none;
+	color: black;
+}
+
+main p{
+	color:#909090 ;
+}
+
 .searchbar{
-	width: 40%;
+	width: 50%;
 	margin-left: 100px;
 	margin-bottom: 30px;
 	height:20px;
+	font-size: 15px;
 }
 
 .box{
-	border: 1px solid black;
+	border: 1px solid #D3D3D3;
 	display: inline-block;
-	padding: 5px;
+	padding: 7px;
+	padding-right:5px
+	margin-left margin-right:7px;
 }
 
 .softcorner{
