@@ -7,7 +7,6 @@ nav{
 	top: 0px;
 }
 
-
  a{
 	text-decoration: none;
 }
@@ -39,8 +38,8 @@ li{
 }
 
 main {
-  padding-top: 100px;
-  min-width: 1000px;
+  	padding-top: 100px;
+  	min-width: 1000px;
 }
 
 main a{
@@ -50,6 +49,14 @@ main a{
 
 main p{
 	color:#909090 ;
+}
+
+.fa-star{
+	display: inline-block;
+}
+
+.fa-star:hover{
+	color: yellow
 }
 
 .searchbar{
